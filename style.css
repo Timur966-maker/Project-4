@@ -4,7 +4,10 @@ margin: 0;
 padding: 0;
 }
 
-body {}
+body {
+    font-family:"Inter", sans-serif ;
+    color: #303030;
+}
 
 header {
     /* Стили для хедера */
@@ -57,8 +60,8 @@ max-width: 715px;
 .about-section {
     /* Стили для второй секции */
     background-color: #fff;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -82,12 +85,12 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    margin-bottom: 0;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    padding-left: 25px;
+    padding:0px 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -99,7 +102,7 @@ select {
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 25px;
+    padding:0px 20px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -124,6 +127,7 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
+    font-size: 16px;
 }
 
 .btn {
@@ -153,22 +157,23 @@ table {
     width: 300px;
     height: 196px;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding-left: 13px;
-    padding-top: 11px;
+padding: 12px 15px;
 }
 
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding: 26px;
 }
 
 .footer-link {
     /* Стили для футера */
-text-decoration: none;
+text-decoration-line: none;
+font-weight: 400;
+font-size: 14px;
 }
